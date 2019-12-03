@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.split(/[.!?]/).count {|sentence| sentence.size > 2}
+    self.split(/[.!?]/).count {|sentence| sentence.size > 3}
   end
 end
